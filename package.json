@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.ts",
     "build": "rimraf dist && tsc",
+    "ts.check": "tsc --project tsconfig.json",
     "add-build": "git add dist",
     "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/index.js\""
   },
@@ -30,6 +31,7 @@
     "@types/node": "^20.1.1",
     "concurrently": "^8.0.1",
     "nodemon": "^2.0.22",
+    "pre-commit": "^1.2.2",
     "prisma": "^4.14.0",
     "typescript": "^5.0.4"
   }
