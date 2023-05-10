@@ -1,6 +1,6 @@
 # Todo Rest API
 
-Todo Rest API using Express and [Prisma](https://prosma.io).
+Todo Rest API using Express and [Prisma](https://prosma.io). The API is deployed on [Vercel](https://vercel.com)
 
 ## Database
 
