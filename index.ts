@@ -7,7 +7,7 @@ import { router as routerTodo } from './routes/todo';
 dotenv.config();
 
 const app = express();
-const port = process.env.PORT;
+const port = process.env.PORT || 5050;
 
 app.use(cors());
 app.use(express.json());
