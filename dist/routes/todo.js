@@ -13,3 +13,4 @@ router.post('/', TodoController_1.createTodo);
 router.put('/:id', TodoController_1.updateTodo);
 router.delete('/:id', TodoController_1.deleteTodo);
 router.put('/toggle/:id', TodoController_1.toggleTodo);
+//# sourceMappingURL=todo.js.map
